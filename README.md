@@ -21,7 +21,7 @@ Please refer to the [main project page](http://www.eso.org/~nsedagha/universe) u
 
 ## How to use
 * Clone the repository to a local directory of your choice. e.g. ```machines```.
-    * ```git clone git@github.com:NimSed/machines.git```
+    * ```git clone https://github.com/NimSed/machines.git```
     * ```cd machines```
 
 * Fetch the lists, metadata and labels for HARPS spectra:
