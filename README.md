@@ -1,3 +1,4 @@
+## Astro-Machines:
 ## Machines Learn to Infer Stellar Parameters Just by Looking at a Large Number of Spectra
 Here you can find the code and (pointers to) the data used in the paper: [arxiv.org/abs/2009.12872](https://arxiv.org/abs/2009.12872) ([DOI:10.1093/mnras/staa3540](https://dx.doi.org/10.1093/mnras/staa3540))
 
