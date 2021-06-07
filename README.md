@@ -39,14 +39,22 @@ Please refer to the [main project page](http://www.eso.org/~nsedagha/universe) u
     * ```cd notebooks```
     * ```jupyter-notebook```
 
-# Optional
+# Optional -- to pass individual HARPS-like spectra through pretrained networks
 * Fetch pretrained models:
     * ```cd models```
     * ```sh fetch_models.sh``` 
     * ```cd ..```
 
+* Fetch sample spectrum:
+    * ```cd models```
+    * ```sh fetch_sample_spectrum.sh``` 
+* and test it:
+    * ```python3 infer.py```
+
+You can of course use an arbitrarily chosen HARPS spectrum (in fits format). Just pass it to infer.py using the ```--fits_file``` argument.
+
 ## Dependencies
 ```bash
 pip3 install astropy
 ```
-``` 
+
