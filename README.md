@@ -21,9 +21,9 @@ Please refer to the [main project page](http://www.eso.org/~nsedagha/universe) u
 
 
 ## How to use
-* Clone the repository to a local directory of your choice. e.g. ```machines```.
-    * ```git clone https://github.com/NimSed/machines.git```
-    * ```cd machines```
+* Clone the repository to a local directory of your choice. e.g. ```astro-machines```.
+    * ```git clone https://github.com/NimSed/astro-machines.git```
+    * ```cd astro-machines```
 
 * Fetch the lists, metadata and labels for HARPS spectra:
     * ```cd lists```
@@ -38,7 +38,13 @@ Please refer to the [main project page](http://www.eso.org/~nsedagha/universe) u
 * Play with the provided notebook to visualize the learned features and finally reproduce the plots in section 6 of the paper.
     * ```cd notebooks```
     * ```jupyter-notebook```
-    
+
+# Optional
+* Fetch pretrained models:
+    * ```cd models```
+    * ```sh fetch_models.sh``` 
+    * ```cd ..```
+
 ## Dependencies
 ```bash
 pip3 install astropy
