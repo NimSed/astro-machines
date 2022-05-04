@@ -25,14 +25,9 @@ Please refer to the [main project page](http://www.eso.org/~nsedagha/universe) u
     * ```git clone https://github.com/NimSed/astro-machines.git```
     * ```cd astro-machines```
 
-* Fetch the lists, metadata and labels for HARPS spectra:
+* Extract the lists, metadata and labels for HARPS spectra:
     * ```cd lists```
-    * ```sh fetch_lists.sh``` 
-    * ```cd ..```
-
-* Fetch the _encoded_ HARPS dataset:
-    * ```cd encoded```
-    * ```sh fetch_codes.sh``` 
+    * ```tar xfz list.tar.gz``` 
     * ```cd ..```
     
 * Play with the provided notebook to visualize the learned features and finally reproduce the plots in section 6 of the paper.
