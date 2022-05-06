@@ -41,6 +41,7 @@ Please refer to the [main project page](https://www.rawdataspeaks.com/projects/a
     * ```cd ..```
 
 * Test/infer on the provided sample.fits:
+    * ```cd infer```
     * ```python3 infer.py```
 
 You can of course use an arbitrarily chosen HARPS spectrum (in fits format). Just pass it to infer.py using the ```--fits_file``` argument.
