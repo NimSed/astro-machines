@@ -40,10 +40,7 @@ Please refer to the [main project page](https://www.rawdataspeaks.com/projects/a
     * ```sh fetch_models.sh``` 
     * ```cd ..```
 
-* Fetch sample spectrum:
-    * ```cd infer```
-    * ```sh fetch_sample_spectrum.sh``` 
-* and test it:
+* Test/infer on the provided sample.fits:
     * ```python3 infer.py```
 
 You can of course use an arbitrarily chosen HARPS spectrum (in fits format). Just pass it to infer.py using the ```--fits_file``` argument.
