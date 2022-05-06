@@ -41,7 +41,7 @@ Please refer to the [main project page](https://www.rawdataspeaks.com/projects/a
     * ```cd ..```
 
 * Fetch sample spectrum:
-    * ```cd models```
+    * ```cd infer```
     * ```sh fetch_sample_spectrum.sh``` 
 * and test it:
     * ```python3 infer.py```
