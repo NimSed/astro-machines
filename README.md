@@ -34,7 +34,7 @@ Please refer to the [main project page](https://www.rawdataspeaks.com/projects/a
     * ```cd notebooks```
     * ```jupyter-notebook```
 
-# Optional -- to pass individual HARPS-like spectra through pretrained networks
+### Optional -- to pass individual HARPS-like spectra through pretrained networks
 * Fetch pretrained models:
     * ```cd models```
     * ```sh fetch_models.sh``` 
