@@ -76,7 +76,7 @@ if __name__=='__main__':
     parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument('--pretrained', type=str, default = '../models/model_128d_e182_i1500000.pth.tar')
     parser.add_argument('--fits_file', type=str, default = 'sample.fits')
-    parser.add_argument('--gpu', metavar='gpu', default=0, type=int)
+    parser.add_argument('--gpu', metavar='gpu', default=-1, type=int)
     args = parser.parse_args()
    
     infer(args)
