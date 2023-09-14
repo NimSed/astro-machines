@@ -6,15 +6,17 @@ Here you can find the code and (pointers to) the data used in the paper: [arxiv.
 
 <!--
 If you use this code for research please cite:
-   
-    @InProceedings{sedaghat_machines_2020,
-      author       = "N. Sedaghat and M. Zolfaghari and E. Amiri and T. Brox",
-      title        = "Orientation-boosted voxel nets for 3D object recognition",
-      booktitle    = "British Machine Vision Conference (BMVC)",
-      month        = " ",
-      year         = "2017",
-      url          = "http://lmb.informatik.uni-freiburg.de/Publications/2017/SZB17a"
-    }
+   @article{sedaghat2021machines,
+     title={Machines learn to infer stellar parameters just by looking at a large number of spectra},
+     author={Sedaghat, Nima and Romaniello, Martino and Carrick, Jonathan E and Pineau, Fran{\c{c}}ois-Xavier},
+     journal={Monthly Notices of the Royal Astronomical Society},
+     volume={501},
+     number={4},
+     pages={6026--6041},
+     year={2021},
+     publisher={Oxford University Press}
+   }
+
 -->
 
 Please refer to the [main project page](https://www.rawdataspeaks.com/projects/astro-machines), to try out the 'sliders' and 'RETR-SPECT' interfaces.
