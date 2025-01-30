@@ -19,7 +19,7 @@ If you use this code for research please cite:
 
 -->
 
-Please refer to the [main project page](https://www.rawdataspeaks.com/projects/astro-machines), to try out the 'sliders' and 'RETR-SPECT' interfaces.
+Please refer to the [main project page](https://www.rawdataspeaks.org/projects/astro-machines), to try out the 'sliders' and 'RETR-SPECT' interfaces.
 
 
 ## How to use
